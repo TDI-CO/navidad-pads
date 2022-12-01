@@ -155,3 +155,10 @@ body {
 .pad8:hover {
     opacity: 70%;
 }
+
+@media screen and (max-width: 700px) {
+
+    .pads {
+        grid-template-columns: repeat(2, 0.02fr);
+    }
+}
